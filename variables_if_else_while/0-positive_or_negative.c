@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - Assigns a random number to n and prints whether it's positive, zero, or negative
+ * main - Assigns a random number to n and prints whether it's positive,
+ * zero, or negative
  *
  * Return: Always 0 (Success)
  */
@@ -21,5 +22,5 @@ int main(void)
 	else
 		printf("%d is negative\n", n);
 
-	return(0);
+	return (0);
 }
