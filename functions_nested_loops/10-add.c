@@ -2,6 +2,8 @@
 
 /**
  * add - Adding to numbers and returning result.
+ * @a: First number.
+ * @b: Second number.
  *
  * Description: Take in to numbers into function, return the addition.
  *

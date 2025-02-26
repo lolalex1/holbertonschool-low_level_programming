@@ -2,6 +2,7 @@
 
 /**
  * print_sign - Printing signs of numbers.
+ * @n: The character to check.
  *
  * Description: Printing + if n is greater than 0, printing 0 if n is 0.
  *

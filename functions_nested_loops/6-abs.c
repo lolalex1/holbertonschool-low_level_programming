@@ -2,6 +2,7 @@
 
 /**
  * _abs - Computing the absolute value of an integer.
+ * @n: The character to check.
  *
  * Description: Returning the absolute value of an integer.
  *

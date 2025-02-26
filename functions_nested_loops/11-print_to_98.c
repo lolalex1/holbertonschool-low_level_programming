@@ -3,6 +3,7 @@
 
 /**
  * print_to_98 - Printing all numbers from value to 98.
+ * @n: The character to check.
  *
  * Description: Function to print all numbers from given number to flat 98.
  */

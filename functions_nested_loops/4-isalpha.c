@@ -2,6 +2,7 @@
 
 /**
  * _isalpha - Checking if value is an alphabetic character
+ * @c: The character to check.
  *
  * Description: Checking if any character given is an alphabetic character.
  *

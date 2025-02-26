@@ -2,6 +2,7 @@
 
 /**
  * print_last_digit - Printing the last digit of a number.
+ * @n: The character to check.
  *
  * Description: Checking and printing last digit of a number.
  *
