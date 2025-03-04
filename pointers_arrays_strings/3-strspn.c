@@ -19,7 +19,7 @@ unsigned int _strspn(char *s, char *accept)
 				break;
 			}
 		}
-		if (sum = 0)
+		if (sum == 0)
 		{
 			break;
 		}
