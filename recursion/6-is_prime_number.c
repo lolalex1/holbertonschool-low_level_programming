@@ -1,6 +1,26 @@
 #include "main.h"
 
 /**
+ * check_prime - checking if num = prime
+ * @num: the number to check
+ * @div: our "divisor"
+ *
+ * Description: checking if num is divisable
+ *
+ * Return: 1 if prime, 0 else
+ */
+int check_prime(int num, int div)
+{
+	if (num <= 1)
+		return (0);
+	if (div * div > num)
+		return (1);
+	if (num % div == 0)
+		return (0);
+	return (check_prime(num, div + 1));
+}
+
+/**
  * is_prime_number - checks if a number is a prime number
  * @n: the number to check
  *
@@ -10,14 +30,5 @@
  */
 int is_prime_number(int n)
 {
-	static int divisor = 2;
-
-	if (n <= 1)
-		return (0);
-	if (divisor * divisor > n)
-		return (1);
-	if (n % divisor == 0)
-		return (0);
-	divisor++;
-	return (is_prime_number(n));
+	return (check_prime(n, 2));
 }

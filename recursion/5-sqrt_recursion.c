@@ -1,6 +1,24 @@
 #include "main.h"
 
 /**
+ * find_sqrt - x
+ * @num: number
+ * @root: root looking for
+ *
+ * Description: checking if root === num
+ *
+ * Return: square root of num
+ */
+int find_sqrt(int num, int root)
+{
+	if (root * root > num)
+		return (-1);
+	if (root * root == num)
+		return (root);
+	return (find_sqrt(num, root + 1));
+}
+
+/**
  * _sqrt_recursion - natural squareroot of num
  * @n: our number arg
  *
@@ -10,12 +28,7 @@
  */
 int _sqrt_recursion(int n)
 {
-	static int num = 0;
-
-	if (num * num > n)
+	if (n < 0)
 		return (-1);
-	if (num * num == n)
-		return (num);
-	num++;
-	return (_sqrt_recursion(n));
+	return (find_sqrt(n, 0));
 }
