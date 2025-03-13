@@ -2,10 +2,13 @@
 #include <stdlib.h>
 
 /**
- * create-array - Array of chars initalized specfic char
+ * create_array - Array of chars initalized specfic char
  *
  * @size: size of memory to print
  * @c: Inizilaising character
+ *
+ * Description: An array of characters initialized with 
+ * speicifc char @c
  *
  * Return: Pointer to array, null otherwise
  */
