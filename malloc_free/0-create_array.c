@@ -7,7 +7,7 @@
  * @size: size of memory to print
  * @c: Inizilaising character
  *
- * Description: An array of characters initialized with 
+ * Description: An array of characters initialized with
  * speicifc char @c
  *
  * Return: Pointer to array, null otherwise
