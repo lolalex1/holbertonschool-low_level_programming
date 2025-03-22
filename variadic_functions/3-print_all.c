@@ -3,7 +3,7 @@
 
 /**
  * print_all - Prints anything based on the given format
- * @format: List of argument types (c: char, i: int, f: float, s: string)
+ * @format: All arguments
  * Return: void
  */
 void print_all(const char * const format, ...)
