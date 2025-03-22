@@ -4,7 +4,7 @@
  * main - Entry point, performs simple arithmetic operations
  * @argc: Number of arguments
  * @argv: Array of arguments
- * 
+ *
  * Return: 0 on success, or an error code on failure
  */
 int main(int argc, char *argv[])
